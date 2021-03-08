@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/topcolor"
+        android:id="@+id/toplayout"
+        android:layout_height="130dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PORTLR"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/t1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginTop="1dp"
+            android:text="Tracker-Client Phone Calls"
+            android:id="@+id/t2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:background="@drawable/roundcircle"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:id="@+id/imagelayout"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/settings"
+            />
+    </RelativeLayout>
+</RelativeLayout>

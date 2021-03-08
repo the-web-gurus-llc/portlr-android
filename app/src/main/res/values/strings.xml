@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PortLr</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="portlr_url_clientname_portlr_com">Portlr URL (clientname.portlr.com)</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="time_registration">Time registration</string>
+    <string name="comment">Comment</string>
+    <string name="_00_00">00:00</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="add">ADD</string>
+    <string name="project">Project</string>
+    <string name="task">Task</string>
+    <string name="update">Update</string>
+    <string name="registrations">Registrations</string>
+    <string name="hours">Hours</string>
+    <string name="mins">Mins</string>
+    <string name="_12_12_2020">12-12-2020</string>
+    <string name="calls">Calls</string>
+    <string name="registrate_time_on_call">Registrate time on call</string>
+    <string name="phone_conversation">Phone Conversation</string>
+    <string name="register_time">Register Time</string>
+    <string name="call_logger">Call Logger</string>
+    <string name="check_in_out_notifications">Check-in/out notifications</string>
+    <string name="set_timer_as_start_page">Set timer as start page</string>
+    <string name="work_m">M</string>
+    <string name="work_t">T</string>
+    <string name="work_w">W</string>
+    <string name="work_f">F</string>
+    <string name="work_s">S</string>
+    <string name="select_default_project">Select default project</string>
+    <string name="typical_start_time">Typical start time</string>
+    <string name="typical_end_time">Typical end time</string>
+    <string name="checkout_based_on_location">Checkout based on location</string>
+    <string name="set_new_work_location">SET NEW WORK LOCATION</string>
+    <string name="active_work_location">Active work location: </string>
+    <string name="confirm">Confirm</string>
+    <string name="settings">Settings</string>
+    <string name="timer">Timer</string>
+    <string name="to">To</string>
+    <string name="cancel_check_in">Cancel check-in</string>
+    <string name="check_in">check-in</string>
+    <string name="select_workdays">Select workdays:</string>
+</resources>

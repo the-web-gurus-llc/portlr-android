@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_logo_white"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            style="@style/TimeRegistrationText"
+            android:textColor="@color/colorWhite"
+            android:text="@string/registrations"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/sumLb"
+            style="@style/TimeRegistrationText"
+            android:textColor="@color/colorWhite"
+            android:text="@string/_00_00"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TimeRegistrationText"
+                android:fontFamily="@font/montserrat_light"
+                android:textColor="@color/colorWhite"
+                android:text="@string/hours"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginStart="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TimeRegistrationText"
+                android:fontFamily="@font/montserrat_light"
+                android:textColor="@color/colorWhite"
+                android:text="@string/mins"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/prevBtn"
+                android:src="@drawable/ic_prev_btn"
+                android:padding="@dimen/padding_btns_registration_list"
+                android:layout_width="@dimen/size_icon_btns_registration_list"
+                android:layout_height="@dimen/size_icon_btns_registration_list"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/myDateEt"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                style="@style/RegistrationListText"
+                android:focusable="false"
+                android:textAlignment="center"
+                android:text="@string/_12_12_2020"
+                tools:ignore="Autofill"
+                android:inputType="none" />
+
+            <ImageView
+                android:id="@+id/nextBtn"
+                android:src="@drawable/ic_next_btn"
+                android:padding="@dimen/padding_btns_registration_list"
+                android:layout_width="@dimen/size_icon_btns_registration_list"
+                android:layout_height="@dimen/size_icon_btns_registration_list"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/pultorefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:divider="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listview" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

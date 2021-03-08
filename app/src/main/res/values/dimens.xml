@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <dimen name="height_auth_btn">54dp</dimen>
+    <dimen name="radius_back_auth_btn">27dp</dimen>
+
+    <dimen name="text_size_auth_et">13sp</dimen>
+    <dimen name="height_main_bottom_view">70dp</dimen>
+
+    <dimen name="size_icon_registration_time_bottom">36dp</dimen>
+    <dimen name="size_icon_registration_time_middle">24dp</dimen>
+
+    <dimen name="text_size_main_et">13sp</dimen>
+    <dimen name="text_size_main_btn">15sp</dimen>
+
+    <dimen name="height_main_btn">46dp</dimen>
+    <dimen name="height_main_et_mid">92dp</dimen>
+    <dimen name="radius_back_main_btn">23dp</dimen>
+    <dimen name="margins_time_reg_ets">10dp</dimen>
+    <dimen name="size_drop_down_ic">18dp</dimen>
+    <dimen name="bt_img_padding">2dp</dimen>
+
+    <dimen name="size_icon_btns_registration_list">36dp</dimen>
+    <dimen name="padding_btns_registration_list">6dp</dimen>
+    <dimen name="margin_each_items_reg_bottom">8dp</dimen>
+
+    <!--
+        AutoTime Setting
+        -->
+
+    <dimen name="size_icon_questions_autoTimeSet">28dp</dimen>
+    <dimen name="margin_between_qc">4dp</dimen>
+    <dimen name="marginBottomAutoTimeSetting">8dp</dimen>
+    <dimen name="paddingTop_workday_btns">4dp</dimen>
+    <dimen name="size_workday_btns">30dp</dimen>
+    <dimen name="paddings_work_day_under_set">12dp</dimen>
+    <dimen name="margins_workday_btns">8dp</dimen>
+
+</resources>

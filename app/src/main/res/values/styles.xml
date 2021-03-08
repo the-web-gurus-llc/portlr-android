@@ -1,0 +1,157 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <!--Auth EditText-->
+    <style name="AuthEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/colorTintAuthBtn</item>
+        <item name="android:textColorHint">@color/colorTintAuthBtn</item>
+        <item name="android:textSize">@dimen/text_size_auth_et</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/back_auth_btn</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_auth_btn</item>
+    </style>
+
+    <style name="MainEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/colorTintAuthBtn</item>
+        <item name="android:textColorHint">@color/colorTintAuthBtn</item>
+        <item name="android:textSize">@dimen/text_size_main_et</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/spin_back</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_main_btn</item>
+    </style>
+
+    <style name="SpinEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/colorTintAuthBtn</item>
+        <item name="android:textColorHint">@color/colorTintAuthBtn</item>
+        <item name="android:textSize">@dimen/text_size_main_et</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:focusable">false</item>
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_main_btn</item>
+    </style>
+
+    <style name="MainSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/colorTintAuthBtn</item>
+        <item name="android:textColorHint">@color/colorTintAuthBtn</item>
+        <item name="android:textSize">@dimen/text_size_main_et</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_main_btn</item>
+    </style>
+
+    <style name="AuthEditButton" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/colorTintAuthBtn</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/back_auth_btn</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_auth_btn</item>
+    </style>
+
+    <style name="DefaultButton" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_main_btn</item>
+        <item name="android:lines">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_height">@dimen/height_main_btn</item>
+    </style>
+
+    <style name="TimeRegistrationText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RegistrationListText" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/colorTintAuthBtn</item>
+        <item name="android:textColorHint">@color/colorTintAuthBtn</item>
+        <item name="android:textSize">@dimen/text_size_main_et</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_main_btn</item>
+    </style>
+
+    <style name="AutoTimeSettingText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/segoepro_regular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AutoTImeSettingCheckBox">
+        <item name="android:scaleX">1.2</item>
+        <item name="android:scaleY">1.2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="buttonTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="AutoTimeSettingEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/colorTintAuthBtn</item>
+        <item name="android:textColorHint">@color/colorTintAuthBtn</item>
+        <item name="android:textSize">@dimen/text_size_main_et</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/spin_back</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_main_btn</item>
+    </style>
+
+    <style name="TimeClockText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

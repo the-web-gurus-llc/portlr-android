@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp">
+
+    <RelativeLayout
+        android:background="@drawable/spin_back"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_toStartOf="@id/hoursTV"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/projectNameTV"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/project"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/taskNameTV"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/montserrat_light"
+                android:textColor="@color/colorTintAuthBtn"
+                android:text="@string/task"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:id="@+id/editBtn"
+                android:src="@drawable/ic_edit_btn"
+                android:padding="6dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hoursTV"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/_00_00"
+            android:textAlignment="center"
+            android:layout_alignParentEnd="true"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

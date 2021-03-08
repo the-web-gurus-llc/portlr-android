@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D73BF</color>
+    <color name="colorPrimaryDark">#1D73BF</color>
+    <color name="colorAccent">#1D73BF</color>
+    <color name="topcolor">#1e73be</color>
+    <color name="background">#f3f9ff</color>
+    <color name="line">#cce2f5</color>
+    <color name="greycolor">#b6bac2</color>
+    <color name="colorTintAuthBtn">#3B3B3B</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="colorGray">#C7C7C7</color>
+</resources>
